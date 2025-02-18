@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrumil's Portfolio</title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="assets/images/my-image-circular.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>Dhrumil<span class="text-danger">.</span></strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="container p-4" id="home">
+        <div class="row align-items-center intro">
+            <!-- Profile Image Section -->
+            <div class="col-md-4 text-center p-5">
+                <img class="img-fluid rounded-circle my-image" src="./assets/images/my-image.jpg"
+                    alt="A professional photo of a 3D Artist" />
+            </div>
+
+            <!-- Introduction Section -->
+            <div class="col-md-8 text-center text-md-start">
+                <h1 class="fw-bold">Hi, I am <span class="text-danger">Dhrumil Patel</span></h1>
+                <h2 class="text-secondary">I am a 3D Artist.</h2>
+                <p class="lead">
+                    I am a passionate 3D artist specializing in creating stunning visual experiences through modeling,
+                    texturing, and rendering. With expertise in industry-standard tools like Unreal engine, Maya, and
+                    ZBrush,
+                    I bring imagination to life in gaming, animation, and digital art projects. My goal is to push the
+                    boundaries of creativity and deliver immersive visuals that captivate audiences.
+                </p>
+
+                <!-- Social Media Links -->
+                <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                    <a href="https://www.linkedin.com/in/dhrumil-patel-794651351" class="btn btn-outline-danger"
+                        aria-label="LinkedIn Profile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/pateldhrumil44" class="btn btn-outline-danger"
+                        aria-label="Instagram Profile" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <!-- Call-to-Action Buttons -->
+                <div class="mt-4">
+                    <a href="mailto:patel.dhrumil3214@gmail.com" class="btn btn-danger me-2">Hire Me</a>
+                    <a href="" download class="btn btn-outline-danger d-none">Download My
+                        Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container p-4">
+        <div class="education">
+            <h2 class="text-center mt-5 mb-5 text-danger">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item rounded-3 shadow-sm mb-4 p-4">
+                            <strong>Arena Certified Professional in Animation And VFX</strong> - Arena Animation,
+                            Ahmedabad, India
+                            <span>(Nov 2021 - Jul 2023)</span>
+                        </li>
+                        <li class="list-group-item rounded-3 shadow-sm mb-4 p-4">
+                            <strong>Game Development</strong> - Arena Animation, Ahmedabad, Naranpura
+                            <span>(Feb 2023 - Present)</span>
+                        </li>
+                        <li class="list-group-item rounded-3 shadow-sm mb-4 p-4">
+                            <strong>High School Diploma</strong> - Sadhana Vinay Mandir, Ahmedabad, India
+                            <span>(Aug 2017 - Mar 2019)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container p-4">
+        <div class="projects">
+            <h2 class="text-center mt-5 mb-5 text-danger">Projects</h2>
+            <div class="row g-4 project-container">
+                <!-- Project 1 -->
+                <div class="col-12 col-md-9">
+                    <div class="project-item">
+                        <a href="project.html?project=basketball-advertisement">
+                            <img src="/src/assets/images/basketball.jpg" class="img-fluid rounded shadow-sm"
+                                alt="Basketball advertisement project thumbnail" data-bs-toggle="tooltip"
+                                title="Click to view project details">
+                        </a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-12 col-md-3">
+                    <div class="project-item">
+                        <a href="project.html?project=elevator-stuck">
+                            <img src="/src/assets/images/elevator.png" class="img-fluid rounded shadow-sm"
+                                alt="elevator stuck project thumbnail" data-bs-toggle="tooltip"
+                                title="Click to view project details">
+                        </a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="project-item h-100">
+                        <a href="project.html?project=nft-cues">
+                            <img src="/src/assets/images/cue.png" class="img-fluid rounded shadow-sm"
+                                alt="NFT cues project thumbnail" data-bs-toggle="tooltip"
+                                title="Click to view project details">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row g-4">
+                        <!-- Project 4 -->
+                        <div class="col-12 col-md-12">
+                            <div class="project-item">
+                                <a href="project.html?project=castle">
+                                    <img src="/src/assets/images/castle.jpg" class="img-fluid rounded shadow-sm"
+                                        alt="Castle project thumbnail" data-bs-toggle="tooltip"
+                                        title="Click to view project details">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project 5 -->
+                        <div class="col-12 col-md-6">
+                            <div class="project-item">
+                                <a href="project.html?project=luxurious-room">
+                                    <img src="/src/assets/images/luxurious-room.jpeg"
+                                        class="img-fluid rounded shadow-sm" alt="Luxurious room project thumbnail"
+                                        data-bs-toggle="tooltip" title="Click to view project details">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project 6 -->
+                        <div class="col-12 col-md-6">
+                            <div class="project-item">
+                                <a href="project.html?project=midnoon-house">
+                                    <img src="/src/assets/images/midnoon-house.png" class="img-fluid rounded shadow-sm"
+                                        alt="Midnoon house project thumbnail" data-bs-toggle="tooltip"
+                                        title="Click to view project details">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="col-12 col-md-12">
+                    <div class="project-item">
+                        <a href="project.html?project=vr-shooting-game">
+                            <img src="/src/assets/images/VR_game.jpg" class="img-fluid rounded shadow-sm"
+                                alt="VR Shooting game project thumbnail" data-bs-toggle="tooltip"
+                                title="Click to view project details">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container p-4 text-center">
+
+        <div class="contact-me">
+            <!-- Contact Form -->
+            <form id="contact-me-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST"
+                novalidate>
+                <h3 class="form-title text-danger">Contact Me</h3>
+
+                <!-- Message Box (will appear if the form is incomplete) -->
+                <div id="message-box" class="message-box d-none">
+                    <strong>Please fill in all fields properly.</strong>
+                </div>
+
+                <div class="form-container">
+                    <!-- Hidden Input for Web3 Forms API Key -->
+                    <input type="hidden" name="access_key" value="f82caf0c-477d-4fc0-ad38-43e75a47be96">
+
+                    <!-- Name Input -->
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Your Name" class="form-input" required
+                            aria-label="Your Name">
+                    </div>
+
+                    <!-- Email Input -->
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Your Email" class="form-input" required
+                            aria-label="Your Email">
+                    </div>
+
+                    <!-- Phone Number Input -->
+                    <div class="form-group">
+                        <input type="tel" name="tel" id="tel" placeholder="Your Phone Number" class="form-input"
+                            required aria-label="Your Phone Number">
+                    </div>
+
+                    <!-- Message Textarea -->
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Your Message" class="form-input" required
+                            aria-label="Your Message"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center p-4">
+        <div class="footer-content">
+            <p class="footer-item">
+                Email:
+                <a href="mailto:patel.dhrumil3214@gmail.com" class="text-danger">patel.dhrumil3214@gmail.com</a>
+            </p>
+            <p class="footer-item">Phone: +91 90231 82466</p>
+
+            <!-- Social Media Links -->
+            <div class="social-media d-flex justify-content-center my-4">
+                <a href="https://www.linkedin.com/in/dhrumil-patel-794651351" target="_blank" class="btn btn-dark mx-2"
+                    aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.instagram.com/pateldhrumil44" target="_blank" class="btn btn-dark mx-2"
+                    aria-label="Instagram Profile">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+
+            <p class="footer-item">&copy; <span id="footer-year"></span> Dhrumil Patel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/src/app/app.js"></script>
+</body>
+
+</html>

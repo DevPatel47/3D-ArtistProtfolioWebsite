@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrumil's Portfolio</title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="shortcut icon" href="assets/images/my-image-circular.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>Dhrumil<span class="text-danger">.</span></strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html?#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html?#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html?#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/src/index.html?#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container p-4 mt-5">
+        <div class="container rounded project-container p-3">
+            <!-- Heading -->
+            <h2 id="heading" class="w-100 text-center text-danger">Heading</h2>
+            <hr>
+            <div class="row align-items-start">
+                <!-- Video Section -->
+                <div id="media"
+                    class="col-md-4 video-container d-flex justify-content-center align-items-center embed-responsive embed-responsive-9by16 mb-3">
+                    <div id="video" class="d-flex justify-content-center ">
+
+                    </div>
+                </div>
+
+                <!-- Project Details -->
+                <div id="description" class="col-md-8 project-details">
+
+                    <h4 class="w-100 text-center text-danger">Project Type</h4>
+                    <p class="text-center" id="project-type"></p>
+
+                    <h4 class="w-100 text-center text-danger mt-3">Project Overview</h4>
+                    <p class="text-center" id="project-overview"></p>
+
+                    <h4 class="w-100 text-center text-danger mt-3">Key Features</h4>
+                    <ul class="d-flex flex-column justify-content-center align-items-center text-center"
+                        id="key-features">
+
+                    </ul>
+
+                    <h4 class="w-100 text-center text-danger mt-3">Technical Breakdown</h4>
+                    <ul class="d-flex flex-column justify-content-center align-items-center text-center"
+                        id="technical-breakdown">
+
+                    </ul>
+
+                    <h4 class="w-100 text-center text-danger mt-3">Conclusion</h4>
+                    <p class="text-center" id="conclusion"></p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center p-4">
+        <div class="footer-content">
+            <p class="footer-item">
+                Email:
+                <a href="mailto:patel.dhrumil3214@gmail.com" class="text-danger">patel.dhrumil3214@gmail.com</a>
+            </p>
+            <p class="footer-item">Phone: +91 90231 82466</p>
+
+            <!-- Social Media Links -->
+            <div class="social-media d-flex justify-content-center my-4">
+                <a href="https://www.linkedin.com/in/dhrumil-patel-794651351" target="_blank" class="btn btn-dark mx-2"
+                    aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.instagram.com/pateldhrumil44" target="_blank" class="btn btn-dark mx-2"
+                    aria-label="Instagram Profile">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+
+            <p class="footer-item">&copy; <span id="footer-year"></span> Dhrumil Patel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/src/app/projects.js"></script>
+</body>
+
+</html>

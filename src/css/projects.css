@@ -1,0 +1,51 @@
+/* ********** Common Style ********** */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* ********** Navbar ********** */
+.navbar {
+    background-color: #1f1f1f;
+}
+
+.nav-link:hover {
+    color: #d9534f;
+}
+
+/* ********** Main ********** */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    height: 90%;
+    z-index: 5;
+}
+
+.carousel-item video {
+    pointer-events: auto;
+}
+
+.carousel-indicators {
+    margin-bottom: 5%;
+}
+
+.project-container {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+video {
+    border: #d9534f 2px solid;
+}
+
+/* ********** Footer ********** */
+.footer {
+    background-color: #1f1f1f;
+}
+
