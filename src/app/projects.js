@@ -16,7 +16,7 @@ switch (projectName) {
     case "basketball-advertisement":
         eleHeading.innerText = "Basketball Advertisement";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="/src/assets/videos/basketball.mp4" type="video/mp4">
+                        <source src="./src/assets/videos/basketball.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "Collab Presentation | 3D Animated Advertisement";
@@ -41,7 +41,7 @@ switch (projectName) {
     case "elevator-stuck":
         eleHeading.innerText = "Elevator Stuck Aid Demonstration";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="/src/assets/videos/elevator.mp4" type="video/mp4">
+                        <source src="./src/assets/videos/elevator.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "Voice-over Explanation with 3D Animated Demonstration</p>";
@@ -66,7 +66,7 @@ switch (projectName) {
     case "nft-cues":
         eleHeading.innerText = "3D NFT Cues";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="/src/assets/videos/cue.mp4" type="video/mp4">
+                        <source src="./src/assets/videos/cue.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "3D NFT Design & Animation";
@@ -94,7 +94,7 @@ switch (projectName) {
         eleDescriptionContainer.classList.add('col-md-12');
         eleHeading.innerText = "3D Midnight Castle";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="/src/assets/videos/castle.mp4" type="video/mp4">
+                        <source src="./src/assets/videos/castle.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "3D Environment Modeling | Fantasy Landscape";
@@ -137,28 +137,28 @@ switch (projectName) {
         
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/src/assets/images/luxurious-room/LR_1.jpeg" class="d-block w-100" alt="Image 1">
+                <img src="./src/assets/images/luxurious-room/LR_1.jpeg" class="d-block w-100" alt="Image 1">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_2.jpeg" class="d-block w-100" alt="Image 2">
+                <img src="./src/assets/images/luxurious-room/LR_2.jpeg" class="d-block w-100" alt="Image 2">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_3.jpeg" class="d-block w-100" alt="Image 3">
+                <img src="./src/assets/images/luxurious-room/LR_3.jpeg" class="d-block w-100" alt="Image 3">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_4.jpeg" class="d-block w-100" alt="Image 4">
+                <img src="./src/assets/images/luxurious-room/LR_4.jpeg" class="d-block w-100" alt="Image 4">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_5.jpeg" class="d-block w-100" alt="Image 5">
+                <img src="./src/assets/images/luxurious-room/LR_5.jpeg" class="d-block w-100" alt="Image 5">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_6.jpeg" class="d-block w-100" alt="Image 6">
+                <img src="./src/assets/images/luxurious-room/LR_6.jpeg" class="d-block w-100" alt="Image 6">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_7.jpeg" class="d-block w-100" alt="Image 7">
+                <img src="./src/assets/images/luxurious-room/LR_7.jpeg" class="d-block w-100" alt="Image 7">
             </div>
             <div class="carousel-item">
-                <img src="/src/assets/images/luxurious-room/LR_8.jpeg" class="d-block w-100" alt="Image 8">
+                <img src="./src/assets/images/luxurious-room/LR_8.jpeg" class="d-block w-100" alt="Image 8">
             </div>
         </div>
         
@@ -205,25 +205,25 @@ switch (projectName) {
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <video class="d-block w-100" controls autoplay>
-                    <source src="/src/assets/videos/midnoon-house/view1.mp4" type="video/mp4">
+                    <source src="./src/assets/videos/midnoon-house/view1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div class="carousel-item">
                 <video class="d-block w-100" controls>
-                    <source src="/src/assets/videos/midnoon-house/view2.mp4" type="video/mp4">
+                    <source src="./src/assets/videos/midnoon-house/view2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div class="carousel-item">
                 <video class="d-block w-100" controls>
-                    <source src="/src/assets/videos/midnoon-house/view3.mp4" type="video/mp4">
+                    <source src="./src/assets/videos/midnoon-house/view3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div class="carousel-item">
                 <video class="d-block w-100" controls>
-                    <source src="/src/assets/videos/midnoon-house/view4.mp4" type="video/mp4">
+                    <source src="./src/assets/videos/midnoon-house/view4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -261,7 +261,7 @@ switch (projectName) {
         eleDescriptionContainer.classList.add('col-md-6');
         eleHeading.innerText = "VR Shooting Game";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="/src/assets/videos/VRgame.mp4" type="video/mp4">
+                        <source src="./src/assets/videos/VRgame.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "3D VR Game Development";
