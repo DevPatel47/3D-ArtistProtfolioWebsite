@@ -16,7 +16,7 @@ switch (projectName) {
     case "basketball-advertisement":
         eleHeading.innerText = "Basketball Advertisement";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./assets/videos/basketball.mp4" type="video/mp4">
+                        <source src="../assets/videos/basketball.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "Collab Presentation | 3D Animated Advertisement";
@@ -41,7 +41,7 @@ switch (projectName) {
     case "elevator-stuck":
         eleHeading.innerText = "Elevator Stuck Aid Demonstration";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./src/assets/videos/elevator.mp4" type="video/mp4">
+                        <source src="./assets/videos/elevator.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "Voice-over Explanation with 3D Animated Demonstration</p>";
