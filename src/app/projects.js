@@ -16,7 +16,7 @@ switch (projectName) {
     case "basketball-advertisement":
         eleHeading.innerText = "Basketball Advertisement";
         eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./src/assets/videos/basketball.mp4" type="video/mp4">
+                        <source src="./assets/videos/basketball.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;
         eleProjectType.innerText = "Collab Presentation | 3D Animated Advertisement";
