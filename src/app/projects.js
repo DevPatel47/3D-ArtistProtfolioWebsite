@@ -3,8 +3,6 @@ const search = url.searchParams;
 const projectName = search.get('project');
 
 const eleHeading = document.getElementById('heading');
-const eleMediaContainer = document.getElementById('media');
-const eleDescriptionContainer = document.getElementById('description');
 const eleVideo = document.getElementById('video');
 const eleProjectType = document.getElementById('project-type');
 const eleProjectOverview = document.getElementById('project-overview');
@@ -15,10 +13,7 @@ const eleConclusion = document.getElementById('conclusion');
 switch (projectName) {
     case "basketball-advertisement":
         eleHeading.innerText = "Basketball Advertisement";
-        eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="../assets/videos/basketball.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>`;
+        eleVideo.innerHTML = ``;
         eleProjectType.innerText = "Collab Presentation | 3D Animated Advertisement";
         eleProjectOverview.innerText = `This dynamic 3D animated advertisement captures the intensity, energy, and excitement of a high-stakes basketball game. Designed to showcase cinematic realism, the project brings together detailed 3D modeling, fluid character animation, and immersive lighting to create a visually compelling sports advertisement.
 
@@ -40,11 +35,8 @@ switch (projectName) {
 
     case "elevator-stuck":
         eleHeading.innerText = "Elevator Stuck Aid Demonstration";
-        eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./assets/videos/elevator.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>`;
-        eleProjectType.innerText = "Voice-over Explanation with 3D Animated Demonstration</p>";
+        eleVideo.innerHTML = ``;
+        eleProjectType.innerText = "Voice-over Explanation with 3D Animated Demonstration";
         eleProjectOverview.innerText = "This informative 3D animated demonstration provides a step-by-step visual guide on what to do if an elevator gets stuck. Designed to be both educational and engaging, the animation pairs a clear voice-over explanation with lifelike 3D visuals to enhance viewer understanding and safety awareness.\n\nThe scene features a realistically modeled elevator interior with a fully animated character, demonstrating essential safety steps such as remaining calm, using the emergency button, and waiting for assistance. Careful attention was given to character expressions, movements, and environmental details to make the scenario as realistic and relatable as possible.";
 
         eleKeyFeatures.innerHTML = `
@@ -65,10 +57,7 @@ switch (projectName) {
         break;
     case "nft-cues":
         eleHeading.innerText = "3D NFT Cues";
-        eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./src/assets/videos/cue.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>`;
+        eleVideo.innerHTML = `<iframe src="https://www.youtube.com/embed/0mR4Wk0osIk?si=Ir3ao9V6zG9bfW6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "3D NFT Design & Animation";
         eleProjectOverview.innerText = "This project involved designing and animating 200 unique 3D NFT pool cues, categorized into four distinct levels. The goal was to transform 2D conceptual sketches into highly detailed, realistic 3D assets, making each cue a collectible digital masterpiece.\n\nThe process began with intricate 3D modeling of the cues, ensuring precise proportions and high detail. The models were then textured using Substance Painter, applying realistic materials such as wood grain, metallic accents, and custom engravings. Finally, post-processing effects and particle animations were added in After Effects to enhance the visual appeal and uniqueness of each cue.";
 
@@ -88,15 +77,8 @@ switch (projectName) {
 
         break;
     case "castle":
-        eleMediaContainer.classList.remove('col-md-4');
-        eleMediaContainer.classList.add('col-md-12');
-        eleDescriptionContainer.classList.remove('col-md-8');
-        eleDescriptionContainer.classList.add('col-md-12');
         eleHeading.innerText = "3D Midnight Castle";
-        eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./src/assets/videos/castle.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>`;
+        eleVideo.innerHTML = `<iframe class="mt-4" src="https://www.youtube.com/embed/LZvf9MvwxpM?si=TN1ZdTp2eJwHR_W7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "3D Environment Modeling | Fantasy Landscape";
         eleProjectOverview.innerText = "3D Midnight Castle is a breathtaking fantasy environment that brings an eerie yet magical world to life. This project focuses on detailed 3D environment modeling, capturing the mystical essence of an ancient castle surrounded by a dramatic nighttime landscape.\n\nThe castle itself features intricately designed towers, grand archways, and textured stone walls, giving it an authentic, weathered look. The surrounding environment—mystic trees, fog-covered terrain, and glowing ambient lights—adds to the immersive fantasy atmosphere. Careful attention was given to lighting and rendering, ensuring a cinematic visual experience that captures the mystery and grandeur of the scene.";
 
@@ -117,13 +99,9 @@ switch (projectName) {
 
         break;
     case "luxurious-room":
-        eleMediaContainer.classList.remove('col-md-4');
-        eleMediaContainer.classList.add('col-md-12');
-        eleDescriptionContainer.classList.remove('col-md-8');
-        eleDescriptionContainer.classList.add('col-md-12');
         eleHeading.innerText = "Luxurious Room Decor";
         eleVideo.innerHTML = `
-        <div id="imageCarousel" class="carousel slide mt-4 w-75" data-bs-ride="carousel">
+        <div id="imageCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
@@ -188,13 +166,9 @@ switch (projectName) {
 
         break;
     case "midnoon-house":
-        eleMediaContainer.classList.remove('col-md-4');
-        eleMediaContainer.classList.add('col-md-12');
-        eleDescriptionContainer.classList.remove('col-md-8');
-        eleDescriptionContainer.classList.add('col-md-12');
         eleHeading.innerText = "Midnoon Hillstation View";
         eleVideo.innerHTML = `
-        <div id="videoCarousel" class="carousel slide mt-4 w-75" data-bs-ride="carousel">
+        <div id="videoCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1"></button>
@@ -255,15 +229,8 @@ switch (projectName) {
 
         break;
     case "vr-shooting-game":
-        eleMediaContainer.classList.remove('col-md-4');
-        eleMediaContainer.classList.add('col-md-6');
-        eleDescriptionContainer.classList.remove('col-md-8');
-        eleDescriptionContainer.classList.add('col-md-6');
         eleHeading.innerText = "VR Shooting Game";
-        eleVideo.innerHTML = `<video controls class="mt-4 w-75" autoplay>
-                        <source src="./src/assets/videos/VRgame.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>`;
+        eleVideo.innerHTML = ``;
         eleProjectType.innerText = "3D VR Game Development";
         eleProjectOverview.innerText = "VR Shooting Game is a thrilling first-person virtual reality experience that immerses players in an action-packed sci-fi environment. Designed to push the boundaries of VR gameplay, this project combines realistic weapon mechanics, enemy AI, and an immersive game world to deliver an engaging and interactive experience. Players take on the role of a futuristic soldier, engaging in fast-paced combat against enemy drones inside a high-tech spaceship. The game features realistic hand interactions, detailed weapon models, and a responsive VR environment built with Unreal Engine’s visual scripting for seamless interactivity.";
 

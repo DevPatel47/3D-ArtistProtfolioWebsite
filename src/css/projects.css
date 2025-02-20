@@ -1,16 +1,16 @@
 /* ********** Common Style ********** */
 body {
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
 }
 
 /* ********** Navbar ********** */
 .navbar {
-    background-color: #1f1f1f;
+    background-color: #141414;
 }
 
 .nav-link:hover {
-    color: #d9534f;
+    color: #ff4444;
 }
 
 /* ********** Main ********** */
@@ -36,16 +36,20 @@ ul {
 }
 
 .project-container {
-    background-color: #1f1f1f;
-    border-color: #333;
+    background-color: #141414;
+    border-color: #222;
 }
 
-video {
-    border: #d9534f 2px solid;
+iframe {
+    width: 712px;
+    height: 400px;
+}
+
+.carousel {
+    width: 712px;
 }
 
 /* ********** Footer ********** */
 .footer {
-    background-color: #1f1f1f;
+    background-color: #141414;
 }
-
