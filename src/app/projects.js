@@ -167,49 +167,7 @@ switch (projectName) {
         break;
     case "midnoon-house":
         eleHeading.innerText = "Midnoon Hillstation View";
-        eleVideo.innerHTML = `
-        <div id="videoCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="3"></button>
-        </div>
-        
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <video class="d-block w-100" controls autoplay>
-                    <source src="./src/assets/videos/midnoon-house/view1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-item">
-                <video class="d-block w-100" controls>
-                    <source src="./src/assets/videos/midnoon-house/view2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-item">
-                <video class="d-block w-100" controls>
-                    <source src="./src/assets/videos/midnoon-house/view3.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="carousel-item">
-                <video class="d-block w-100" controls>
-                    <source src="./src/assets/videos/midnoon-house/view4.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>`;
+        eleVideo.innerHTML = `<iframe src="https://www.youtube.com/embed/HycwwtUy5P0?si=hYSnvwvlS29Dok4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "3D Environment Modeling | Natural Landscape";
         eleProjectOverview.innerText = "Midnoon Hillstation View is a breathtaking 3D natural landscape, capturing the essence of a serene hill station surrounded by lush greenery, flowing waterfalls, and dynamic lighting effects. This project was designed to create a visually stunning and immersive outdoor environment, blending realism with artistic composition to showcase the beauty of nature. The scene includes realistically modeled trees, stones, and plants, carefully placed to create a harmonious and natural layout. A procedurally generated waterfall adds a dynamic element, featuring realistic water splashes, ripples, and flow patterns. The entire environment is brought to life with cinematic lighting and high-quality rendering in Unreal Engine, ensuring a high level of realism and visual depth.";
 
