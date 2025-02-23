@@ -13,7 +13,7 @@ const eleConclusion = document.getElementById('conclusion');
 switch (projectName) {
     case "basketball-advertisement":
         eleHeading.innerText = "Basketball Advertisement";
-        eleVideo.innerHTML = ``;
+        eleVideo.innerHTML = `<iframe src="https://www.youtube.com/embed/caCR7ILwjPY?si=2wcO0m2qYCADrvXh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "Collab Presentation | 3D Animated Advertisement";
         eleProjectOverview.innerText = `This dynamic 3D animated advertisement captures the intensity, energy, and excitement of a high-stakes basketball game. Designed to showcase cinematic realism, the project brings together detailed 3D modeling, fluid character animation, and immersive lighting to create a visually compelling sports advertisement.
 
@@ -35,7 +35,7 @@ switch (projectName) {
 
     case "elevator-stuck":
         eleHeading.innerText = "Elevator Stuck Aid Demonstration";
-        eleVideo.innerHTML = ``;
+        eleVideo.innerHTML = `<iframe src="https://www.youtube.com/embed/yUEIzBDYFJk?si=E4fumLHrlSaKjEEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "Voice-over Explanation with 3D Animated Demonstration";
         eleProjectOverview.innerText = "This informative 3D animated demonstration provides a step-by-step visual guide on what to do if an elevator gets stuck. Designed to be both educational and engaging, the animation pairs a clear voice-over explanation with lifelike 3D visuals to enhance viewer understanding and safety awareness.\n\nThe scene features a realistically modeled elevator interior with a fully animated character, demonstrating essential safety steps such as remaining calm, using the emergency button, and waiting for assistance. Careful attention was given to character expressions, movements, and environmental details to make the scenario as realistic and relatable as possible.";
 
@@ -230,7 +230,7 @@ switch (projectName) {
         break;
     case "vr-shooting-game":
         eleHeading.innerText = "VR Shooting Game";
-        eleVideo.innerHTML = ``;
+        eleVideo.innerHTML = `<iframe src="https://www.youtube.com/embed/BhhfkwUHbUw?si=1xqXpeVympuyxAhC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
         eleProjectType.innerText = "3D VR Game Development";
         eleProjectOverview.innerText = "VR Shooting Game is a thrilling first-person virtual reality experience that immerses players in an action-packed sci-fi environment. Designed to push the boundaries of VR gameplay, this project combines realistic weapon mechanics, enemy AI, and an immersive game world to deliver an engaging and interactive experience. Players take on the role of a futuristic soldier, engaging in fast-paced combat against enemy drones inside a high-tech spaceship. The game features realistic hand interactions, detailed weapon models, and a responsive VR environment built with Unreal Engine’s visual scripting for seamless interactivity.";
 
